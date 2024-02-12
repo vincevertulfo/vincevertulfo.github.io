@@ -1,186 +1,249 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Vince Vertulfo</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta property="og:title" content="Vince Vertulfo | Portfolio" />
-		<meta property="og:url" content="http://vincevertulfo.github.io" />
-		<meta property="og:image" content="https://vincevertulfo.github.io/images/social-image.jpg"/>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">About Me</a></li>
-							<li><a href="#three">Let's Connect</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title></title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Portfolio webpage of Vince Vertulfo" />
+   <meta name="keywords"
+      content="portfolio,website,personal website,github,projects,computer science and engineering" />
+   <meta name="author" content="Vince Vertulfo" />
+   <!--------------------Social Media icons------------------------>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+   <link rel="icon" type="image/png" href="/images/logo1.png">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
+   <!-- Animate.css -->
+   <link rel="stylesheet" href="css/animate.css">
+   <!-- Bootstrap  -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <!-- Theme style  -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Modernizr JS -->
+   <script src="js/modernizr-2.6.2.min.js"></script>
+   <script type="module" src="index.js"></script>
+   <script src="js/profile-card.js"></script>
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body>
+   <div id="colorlib-page">
+      <div class="container-wrap">
+         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar"><i></i></a>
+         <!--------------------[START] Side Bar-------------------------->
+         <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
+            <div class="text-center">
+               <div class="author-img">
+                  <img alt="profile-img" src="images/logo1.png">
+               </div>
+               <h1 id="colorlib-logo"><a href="./index.html">Vince
+                     Vertulfo</a>
+               </h1>
+               <p><b>Data Engineer @InfoCentric</b></p>
+            </div>
+            <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
+               <div id="navbar" class="collapse">
+                  <ul>
+                     <li><a href="#" data-nav-section="about">About</a></li>
+                     <li><a href="#" data-nav-section="skills">Skills</a></li>
+                     <li><a href="#" data-nav-section="experience">Work Experience</a></li>
+                     <li><a href="#" data-nav-section="education">Education</a></li>
+                     <li><a href="#" data-nav-section="projects">Projects</a></li>
+                     <li><a href="#" data-nav-section="blogs">Blogs</a>
+                     </li>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1 class="landing-page">Vince Vertulfo</h1>
-							<p class="current-job"> Data Engineer at Luxclusif </p>
-							<p> Hi, I'm a data engineer based in Melbourne, Australia. I am very enthusiastic about the field of data, and I find pure joy building and designing robust data pipelines that enable companies to perform analytics workloads. </p>
+                     <li><a href="#" data-nav-section="contact">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </aside>
+         <!--------------------[END] Side Bar---------------------------->
+         <!--------------------[START] Main Page------------------------->
+         <div id="colorlib-main">
+            <!--------------------[START] About me-------------------------->
+            <section class="colorlib-about" data-section="about">
+               <div class="colorlib-narrow-content">
+                  <div class="row animate-box" data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>About</h1>
+                        <div id="bio">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] About me---------------------------->
+            <!--------------------[START] Skills---------------------------->
+            <section class="colorlib-skills" data-section="skills">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Skills</h1>
+                     </div>
+                  </div>
+                  <div id="skills" class="row">
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Skills------------------------------>
+            <!--------------------[START] Work Experience------------------->
+            <section class="colorlib-experience" data-section="experience">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                     data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Work <span style="color: indianred">Experience</span>
+                        </h1>
+                     </div>
+                  </div>
+                  <div class="timeline-centered" id="experience">
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Work Experience--------------------->
+            <!--------------------[START] Education------------------------->
+            <section class="colorlib-education" data-section="education">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                     data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Education</h1>
+                     </div>
+                  </div>
+                  <div class="timeline-centered" id="education">
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Education--------------------------->
+            <!--------------------[START] Projects-------------------------->
+            <section class="colorlib-projects no-print" data-section="projects">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Projects</h1>
+                     </div>
+                  </div>
+                  <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Independent Consulting Projects</p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="independentConsulting" class="submenu">
+                        </ul>
+                     </li>
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Personal Projects
+                           </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="personal" class="submenu">
+                        </ul>
+                     </li>
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Self-Learning
+                           </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="selfLearning" class="submenu">
+                        </ul>
+                     </li>
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Academe
+                           </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="academe"
+                            class="submenu">
+                        </ul>
+                     </li>
 
-							<p> <u>Technologies:</u> Python, SQL, Pyspark, Azure , AWS, GCP, Airflow, dbt, Git, Database  </p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">See Projects</a></li>
-							</ul>
-						</div>
-					</section>
+                  </ul>
+               </div>
+            </section>
+            <!--------------------[END] Projects---------------------------->
+            <!--------------------[START] Blogs----------------------------->
+            <section class="colorlib-blogs no-print" data-section="blogs">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Latest <span style="color: indianred">Blogs</span>
+                        </h1>
+                     </div>
+                  </div>
+                  <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
+                     <li class="open">
+                        <ul id="blogs" class="submenu" style="display: block;">
+                        </ul>
+                     </li>
+                     <a class="readmore" href="https://medium.com/@melbdataguy" target="_blank">
+                        <p>Read more &RightArrow;</p>
+                     </a>
+                  </ul>
+               </div>
+            </section>
+            <!--------------------[END] Blogs------------------------------->
+            <section class="colorlib-profile" data-section="profile-card">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                     <div class="profile-cards">
+                        <div class="col">
+                           <div class="github-card" username="vincevertulfo"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[START] Contact--------------------------->
+            <section class="colorlib-contact" data-section="contact">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Contact</h1>
+                     </div>
+                     <p>Please feel welcome to contact me via email at josephvincevertulfo@gmail.com. Whether you would
+                        like to discuss a technology, a business opportunity, or simply say hello, I would be delighted to
+                        hear from you.
+                     </p>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Contact----------------------------->
+            <!--------------------[START] Footer---------------------------->
+            <section class="colorlib-footer no-print" data-section="footer">
+               <div class="colorlib-narrow-content">
+                  <footer class="footer" id="footer">
+                  </footer>
+               </div>
+            </section>
+            <!--------------------[END] Footer------------------------------>
+         </div>
+         <!-----[END] Main Page--------->
+      </div>
+   </div>
+   <!-- jQuery -->
+   <script src="js/jquery.min.js"></script>
+   <!-- jQuery Easing -->
+   <script src="js/jquery.easing.1.3.js"></script>
+   <!-- Bootstrap -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Waypoints -->
+   <script src="js/jquery.waypoints.min.js"></script>
+   <!-- Flexslider -->
+   <script src="js/jquery.flexslider-min.js"></script>
+   <!-- Counters -->
+   <script src="js/jquery.countTo.js"></script>
+   <!-- MAIN JS -->
+   <script src="js/main.js"></script>
+</body>
 
-
-
-				<!-- One -->
-				<!-- https://fontawesome.com/v4.7.0/icon/shopping-cart --> 
-					<section id="one" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Projects</h2>
-							<p> Here are the sample personal projects I've made during my leisure time.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-hashtag"></span>
-									<h3>PH Stock Tweets Dashboard</h3>
-									<p>Developed an interactive dashboard on PH Stock Tweets Using Tweepy and Streamlit</p>
-								</section>
-								 <section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Youtube Scraper</h3>
-									<p>Python scraper that takes a keyword and returns a list of youtube urls related to it</p>
-								</section>						
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Dockerized ETL Pipeline</h3>
-									<p>Containerized data pipeline using Python and MySQL.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-shopping-cart"></span>
-									<h3>E-Commerce Customer Segmentation</h3>
-									<p>Perfomed KMeans Clustering to group certain customers of an e-commerce store using RFM metrics.</p>
-								</section>		
-								<!-- 
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section> -->
-							</div>
-							<ul class="actions">
-								<li><a href="https://github.com/vincevertulfo" target="_blank" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Two -->
-				<section id="two" class="wrapper style2 spotlights">
-					<section>
-						<div class="image"><img src="images/v2.1.png" alt="" data-position="top center" /></div>
-						<div class="content">
-							<div class="inner">
-								<h2 style="text-decoration: underline;">Education</h2>
-								<dl>
-									<dt> <b> Ateneo de Manila University, Philippines </b> (2015-2019)
-									<dd>- BS Mgmt Information Systems, Specializing in Data Science and Analytics
-									<dt> <b> Swinburne University of Technology, Australia </b> (2022-2024)
-									<dd>- Master of Data Science (George Swinburne Postgraduate Scholar)
-								</dl>
-							</div>
-						</div>
-					</section>
-					<section>
-						<div class="image"><img src="images/ux.jpg" alt="" data-position="top center" /></div>
-						<div class="content">
-							<div class="inner">
-								<h2 style="text-decoration: underline;">Work Experience</h2>
-								<dl>
-									<dt><b>Data Engineer</b>, Luxclusif <span style="font-style: italic;">(Jun 2021 - Present)</span>
-										<dd> - Global Fashion Tech Company based in Portugal
-									<dt><b>Senior Data Engineer</b>, CodingChiefs <span style="font-style: italic;">(Sep 2021 - Dec 2021)</span>
-										<dd> - Remote Staffing Company based in the Netherlands 
-									<dt><b>Data Scientist/Engineer Consultant</b>, Break Free From Plastict <span style="font-style: italic;">(Apr 2020 - Oct 2021)</span>
-										<dd> - Non-Profit Organization based in Washington D.C, USA
-									<dt><b>Product Data Analyst</b>, GoodWork.ph <span style="font-style: italic;">(Apr 2020 - May 2021)</span>
-										<dd> - #1 Online Marketplace for Local Services in the Philippines
-									<dt><b>Business Analyst</b>, Cobena Business Analytics & Strategy <span style="font-style: italic;">(Jul 2019 - Apr 2020)</span>
-										<dd> - Data Science and Management Consultancy Firm based in the Philippines	
-								</dl>
-							</div>
-						</div>
-					</section>
-				</section>					
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Let's Connect!</h2>
-							<p>If you're interested in doing work together, feel free to hit me up. Open to doing freelance/part-time work.</p>
-							<div class="style1">
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>Melbourne, Australia</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<span>josephvincevertulfo@gmail.com</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/vincevertulfo" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/joseph-vince-vertulfo-65bb6a102/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; 2020. All rights reserved.</li><li>Design by: HTML5 UP</li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
