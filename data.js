@@ -1,12 +1,16 @@
 export const bio = [
-    "👋, This is Vince, a data engineer from the Philippines based in Melbourne. 🦘 ",
-    `Passionate data engineer with a master's degree in data science. Skilled in
-    leveraging advanced analytics tools to drive impactful solutions across diverse
-    industries such as healthcare, financial services, tech startups, and non-profit
-    organisations. Combines hands-on technical expertise with a consultative
-    approach to serve clients globally. Committed to specialising in Big Data, Data
-    Engineering, and Cloud Computing.`,
-    "Thanks for taking the time to learn a little about me!",
+    "👋, This is Vince, an experienced data engineer from the Philippines, now based in Melbourne. 🦘 ",
+    `With over 5 years of experience in data engineering and a master’s degree in data science, 
+    I’ve delivered scalable, high-impact solutions for organisations across healthcare, 
+    financial services, energy, tech startups, and non-profits. I specialise in architecting 
+    and optimising modern data platforms, integrating big data and advanced analytics to 
+    solve complex business problems.`,
+    `I have a strong track record in greenfield and transformation projects, working with 
+    global teams and applying a consultative approach to ensure solutions align with 
+    strategic goals. I’m passionate about building reliable data systems and helping 
+    organisations get real value from their data.`,
+    "Thanks for stopping by!",
+
 ];
 
 export const skills = [
@@ -20,6 +24,18 @@ export const skills = [
         title: "Databases",
         skillName: "SQL Server, PostgreSQL, BigQuery, MySQL",
         color: "6",
+        percentage: "100",
+    },
+    {
+        title: "Cloud",
+        skillName: "Azure, AWS, GCP",
+        color: "6",
+        percentage: "100",
+    },
+    {
+        title: "Data Platform",
+        skillName: "Snowflake, Databricks, Fabric",
+        color: "8",
         percentage: "100",
     },
     {
@@ -44,12 +60,6 @@ export const skills = [
         title: "CI/CD",
         skillName: "Azure Devops, Github Actions",
         color: "5",
-        percentage: "100",
-    },
-    {
-        title: "Cloud",
-        skillName: "Azure, AWS, GCP, Databricks",
-        color: "6",
         percentage: "100",
     },
     {
@@ -145,29 +155,33 @@ export const projects = {
 
 export const experience = [
     {
-        title: "InfoCentric",
-        duration: "March 2023 - Present",
-        subtitle: "Data Engineering Consultant (Full-time)",
+        title: "D2i Consulting",
+        duration: "April 2024 - Present",
+        subtitle: "Data Engineering Consultant",
         details: [
-            "Work in progress..."
+            "Pharmaceuticals/Healthcare: Migrated from on-prem SQL Server and Crystal Reports to Snowflake and Power BI.",
+            "Energy: Developed Databricks-based data platform and Power BI reports."
         ],
-        tags: ["SQL", "Python", "Git", "Azure DevOps Services", "Azure Data Factory", "Microsoft SQL Server", "Microsoft Azure", "CI/CD", "Azure Functions"],
-        icon: "magnifying-glass-chart ",
+        tags: ["SQL", "Python", "Snowflake", "Databricks", "Microsoft Power BI", "Azure Data Factory", "Azure DevOps", "CI/CD", "Microsoft Fabric", "dbt"],
+        icon: "bolt",
+    },
+    {
+        title: "InfoCentric",
+        duration: "March 2023 - March 2024",
+        subtitle: "Data Engineering Consultant",
+        details: [
+            "Financial Services: Built a greenfield data platform using Azure services for the v2 release of the company’s mobile app."
+        ],
+        tags: ["SQL", "Python", "Azure Data Factory", "Microsoft SQL Server", "Azure Functions", "Microsoft Power BI", "Azure DevOps", "CI/CD"],
+        icon: "magnifying-glass-chart",
     },
     {
         title: "Synogize",
         duration: "April 2022 - February 2023",
-        subtitle: "Data Engineering Consultant (Part-time)",
+        subtitle: "Data Engineering Consultant",
         details: [
-            ` Deployed to several clients to assist with their data engineering
-            requirements and perform tasks that include ETL, query optimisation,
-            data modeling, and dashboarding`,
-            `Migrated dashboards from Qlik to Power BI.`,
-            `Assisted in data modelling a large dataset to fit Power BI’s star schema
-            requirement.`,
-            `Wrote technical documentation to assist the client with internal board
-            approval for resource provisioning.`,
-            `Built an ETL pipeline involving Azure Data Factory, ADLS Gen2, Azure SQL.`
+            "Pharmaceuticals: Migrated Tableau reports to Power BI.",
+            "Non-Profit: Built an end-to-end ETL pipeline in Azure for donation reporting."
         ],
         tags: ["SQL", "Python", "Azure Data Factory", "Microsoft Power BI", "Databricks", "Microsoft SQL Server", "Microsoft Azure"],
         icon: "lightbulb",
@@ -175,27 +189,11 @@ export const experience = [
     {
         title: "Luxclusif",
         duration: "June 2021 - February 2023",
-        subtitle: "Data Engineer (Full-time)",
+        subtitle: "Data Engineer",
         details: [
-            `Worked as a DE for a luxury brand retailer company, specifically under
-            the Re-intelligence team which oversees enriching both the company’s
-            current internal and external data.`,
-            `Built ETL pipelines for the company’s OLAP system using Python, Azure
-            Data Factory, Databricks to handle small to large data sets.`,
-            `Migrated tables from Google BigQuery to Azure SQL Server using Azure
-            Data Factory.`,
-            `Participated in code review for verifying pull requests, deploying code
-            changes from development environment to production using Azure
-            DevOps.`,
-            `Developed a POC to test out different Azure services such as Azure
-            Cosmos DB and Azure ADLSGen2 which aided in selecting the team’s
-            data lake/landing zone implementation.`,
-            `Outlined and presented data models and table structures using
-            LucidChart.`,
-            `Created a Python class that automates the uploading of photos from an
-            endpoint to our Azure Data Lake; deployed the class on Azure Databricks.`
+            "Luxury Retail: Built a greenfield data platform on Azure and Databricks as part of the pioneering data engineering team."
         ],
-        tags: ["SQL", "Python", "Git", "Azure DevOps Services", "Azure Data Factory", "Microsoft Power BI", "Databricks", "Microsoft SQL Server", "Microsoft Azure"],
+        tags: ["SQL", "Python", "Azure Data Factory", "Databricks", "Microsoft Power BI", "Azure DevOps", "Microsoft SQL Server"],
         icon: "shirt",
     },
     {
@@ -203,64 +201,34 @@ export const experience = [
         duration: "September 2021 - December 2021",
         subtitle: "Senior Data Engineer (Contract)",
         details: [
-            `Provisioned the necessary resources and set up the AWS ecosystem of
-            one of the company’s car-company clients based in the Netherlands.`,
-            `Proposed and developed a database schema design for the raw JSON
-            files ingested in S3.`,
-            `Designed an ETL flow from AWS S3 to AWS Aurora Postgres using AWS
-            Glue.`,
-            `Developed a CICD pipeline using GitHub Actions that automates the
-            uploading and updating of .py files to AWS S3.`,
-            `Created technical documentation for the company detailing how to
-            maintain the ecosystem and why things were implemented as such.`,
+            "Automotive: Designed and built an end-to-end AWS data pipeline, including architecture and technical documentation, for a Netherlands-based car company."
         ],
-        tags: ["SQL", "Python", "AWS Lambda", "Git", "AWS Glue", "Amazon Web Services", "PySpark", "PostgreSQL", "Github Actions"],
+        tags: ["SQL", "Python", "AWS Lambda", "AWS Glue", "Amazon Web Services", "PostgreSQL", "PySpark", "GitHub Actions"],
         icon: "chart-line",
     },
     {
         title: "GoodWork.ph",
         duration: "April 2020 - May 2021",
-        subtitle: "Product Data Analyst (Full-time)",
+        subtitle: "Product Data Analyst",
         details: [
-            `Hired as the first data guy of the company; directly reported to the CEO,
-            and Head of Marketing`,
-            `Automated the whole ETL process in building reports and monitoring
-            company KPIs using Python and external APIs.`,
-            `Tasked with consolidating insights from various data sources (Google
-                BigQuery, AppsFlyer, MySQL) and sending out weekly performance
-                reports for the company.`,
-            `Developed a Python automation script that sends out daily email reports
-            to easily monitor the performance of the previous days. Deployed the
-            script on AWS EC2.`,
-            `Analysed in-app events data and identified bottlenecks of the app’s
-            customer journey using Google BigQuery and Python.`,
-            `Created and designed PowerBI dashboards across different functions of
-            the company.`,
+            "Startup: First data hire post-seed funding, responsible for all data operations including reporting (operational, analytics, investor) and automation."
         ],
-        tags: ["SQL", "Python", "Git", "Amazon Web Services", "PySpark", "Microsoft Power BI", "Google Cloud Platform"],
+        tags: ["SQL", "Python", "Amazon Web Services", "Microsoft Power BI", "Google Cloud Platform"],
         icon: "mobile-screen-button",
     },
     {
         title: "Cobena Business Analytics & Strategy",
         duration: "July 2019 - April 2020",
-        subtitle: "Business Analyst (Full-time)",
+        subtitle: "Business Analyst",
         details: [
-            `Implemented a clustering analysis using Python for an FMCG company
-            that made use of geospatial factors to determine what the right
-            assortment per store type is. The analysis helped the company plan the
-            appropriate marketing plans for each assortment.`,
-            `Performed a market analysis for a wine company to see and compare
-            the growth trend of their brands and their competitors. Built a PowerBI
-            dashboard to present the findings.`,
-            `Created a Python geocoding script that maps out a list of student
-            addresses into their corresponding latitude/longitude location, enabling
-            the team to investigate further what kind of area the students from a
-            specific institution live in.`
+            "Consulting: Delivered geospatial analysis, market research, and interactive dashboards for FMCG, wine, and education sectors."
         ],
-        tags: ["Python", "Git", "Microsoft Power BI", "Tableau", "Microsoft Excel"],
+        tags: ["Python", "Microsoft Power BI", "Tableau", "Microsoft Excel", "Geospatial Analysis"],
         icon: "chart-simple",
     }
 ];
+
+
 
 export const education = [
     {
